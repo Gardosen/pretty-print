@@ -1,1 +1,9 @@
 build/
+out/
+gradle/
+.idea/
+.gradle/
+gradle/
+prettyprint.properties
+prettyprint.xml
+

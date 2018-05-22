@@ -17,14 +17,3 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.6'
 }
-
-uploadArchives {
-    repositories {
-        mavenDeployer {
-            repository(url: "http://nexus.geeny.io/repository/qa-geeny") {
-                authentication(userName: "qageeny", password: "g7ma#0YTxv@8")
-            }
-            pom.artifactId = "pretty-print"
-        }
-    }
-}
